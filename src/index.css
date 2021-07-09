@@ -1,0 +1,5 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/antd/4.16.6/antd.min.css";
+
+.anticon > svg {
+    vertical-align: baseline;
+}
