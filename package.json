@@ -13,6 +13,7 @@
     "vite-plugin-windicss": "^1.1.1"
   },
   "dependencies": {
+    "@ant-design/icons-svg": "^4.1.0",
     "animate.css": "^4.1.1",
     "solid-app-router": "^0.0.50",
     "solid-js": "^1.0.0"

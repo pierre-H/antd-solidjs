@@ -23,29 +23,11 @@ const App: Component = () => {
                     </li>
                     <li class="py-2 px-4">
                         <Link
-                            href="/about"
+                            href="/icons"
                             class="no-underline hover:underline"
                         >
-                            About
+                            Icons
                         </Link>
-                    </li>
-                    <li class="py-2 px-4">
-                        <Link
-                            href="/error"
-                            class="no-underline hover:underline"
-                        >
-                            Error
-                        </Link>
-                    </li>
-
-                    <li class="text-sm flex items-center space-x-1 ml-auto">
-                        <span>URL:</span>
-                        <input
-                            class="w-75px p-1 bg-white text-sm rounded-lg"
-                            type="text"
-                            readOnly
-                            value={router.location}
-                        />
                     </li>
                 </ul>
             </nav>
